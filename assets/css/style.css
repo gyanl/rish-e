@@ -1,7 +1,6 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
-@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,600i);
-@import url(https://fonts.googleapis.com/css?family=Inter);
+@import url(https://fonts.googleapis.com/css?family=JetBrains+Mono:400,600i);
 
 input:focus,
 textarea:focus,
@@ -11,7 +10,7 @@ button:focus {
 
 body {
   margin: 0px;
-  font-family: "IBM Plex Serif";
+  font-family: "Jetbrains Mono";
   color: #3f384e;
   line-height: 1.5em;
 }
@@ -75,7 +74,6 @@ h2{
 }
 
   .UItext {
-    font-family: "Inter";
     opacity: .75;
     text-align: center;
     text-transform: uppercase;
@@ -91,7 +89,6 @@ h2{
   }
 
   .option {
-    font-family: "Inter";
     color: #858CA1;
     border: 1px solid #eee;
     border-radius: 24px;
@@ -220,7 +217,6 @@ h2{
   .footer {
     background: #ffffff;
     opacity: .8;
-    font-family: "Inter";
     color: #858CA1;
     font-weight: 400;
     width: auto;
@@ -371,6 +367,13 @@ h2{
 
     #typewriter{
       display: inline;
+    }
+
+    .console{
+      padding: 24px;
+      background-color: #333;
+      color: #fff;
+      border-radius: 12px;
     }
 
 
