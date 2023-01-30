@@ -53,6 +53,7 @@ a {
   width: 600px;
   padding-top: 60px;
   margin: auto;
+  min-height: 250px;
 }
 
 .blogcontainer img {
