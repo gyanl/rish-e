@@ -403,6 +403,7 @@ h2{
   .footer {
     font-size: 14px;
     padding: 0px 0 20px 0;
+    position: relative;
   }
 
 .header-text {
